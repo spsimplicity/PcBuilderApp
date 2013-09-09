@@ -1,4 +1,4 @@
 PcBuilderApp
 ============
 
-Node JS and Angular Application
+Node JS and Angular application
