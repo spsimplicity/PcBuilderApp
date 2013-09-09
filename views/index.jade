@@ -1,0 +1,89 @@
+doctype 5
+html
+    head
+        meta(charset='utf08')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+        title PC Builder
+
+        link(rel='stylesheet', href='/stylesheets/css/normalize.css')
+        link(rel='stylesheet', href='/stylesheets/css/components.css')
+
+        script(src='javascripts/lib/angular.min.js')
+        script(src='javascripts/pushMenu/modernizr.custom.js')
+
+    body(ng-app="PcBuilderApp")
+        div.container(ng-controller="GlobalCtrl")
+            // Push Wrapper
+            div.mp-pusher#mp-pusher
+                // mp-menu
+                nav.mp-menu#mp-menu
+                    div.mp-level
+                        ul
+                            li
+                                a(ng-click="loc.path(/)") Home
+                            li.icon.icon-arrow-left
+                                a Motherboards
+                                div.mp-level
+                                    h2 Motherboards
+                                    a.mp-back back
+                                    ul
+                                        li
+                                            a All
+                                        li
+                                            a Manufacturers
+                                        li
+                                            a Sizes
+                                        li
+                                            a Socket Types
+                                        li
+                                            a Price
+                            li
+                                a Processors
+                            li
+                                a Graphics Cards
+                            li
+                                a Power Supplies
+                            li
+                                a Cases
+                            li
+                                a Hard Drives
+                            li
+                                a Memory
+                            li
+                                a Processor Heat Sinks
+                            li
+                                a Monitors
+                            li
+                                a Disc Drives
+
+                // Needed for emulating fixed position of the nav
+                div.scroller
+                    div.scroller-inner
+                        // Main page content
+                        div
+                            nav
+                                a.menu-trigger#trigger(ng-click="") Menu
+                                a(ng-click="loc.path('/')") PC Builder
+                                div
+                                    a(ng-click="showLogin=!showLogin") Login / Register
+                                    form(ng-show="showLogin")
+                                        fieldset
+                                            label Email
+                                            input(type="text")
+                                        fieldset
+                                            label Password
+                                            input(type="password")
+
+                            div(ng-view)
+
+                            footer
+                                div Col 1
+                                div Col 2
+                                div Col 3
+
+        script(src='javascripts/pushMenu/classie.js')
+        script(src='javascripts/pushMenu/mlpushmenu.js')
+        script(src='javascripts/controllers/globalCtrl.js')
+        script(src='javascripts/controllers/homeCtrl.js')
+        script(src='javascripts/pcBuilderApp.js')
