@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98c85ad9-2758-400e-a57b-bd73f20dd7c5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="98c85ad9-2758-400e-a57b-bd73f20dd7c5" name="Default" comment="" />
     <ignored path="PCBuilder.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/appPcBuilder.js" changelist="98c85ad9-2758-400e-a57b-bd73f20dd7c5" time="1378623212613" ignored="false" />
@@ -85,7 +82,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="31" selection-start="58" selection-end="58" vertical-scroll-proportion="0.058486238">
+            <state line="4" column="30" selection-start="59" selection-end="59" vertical-scroll-proportion="0.07798165">
               <folding />
             </state>
           </provider>
@@ -633,7 +630,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="58" selection-end="58" vertical-scroll-proportion="0.058486238">
+        <state line="4" column="30" selection-start="59" selection-end="59" vertical-scroll-proportion="0.07798165">
           <folding />
         </state>
       </provider>
