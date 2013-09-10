@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98c85ad9-2758-400e-a57b-bd73f20dd7c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -18,7 +17,7 @@
     <file path="/homepage.jade" changelist="98c85ad9-2758-400e-a57b-bd73f20dd7c5" time="1378688308848" ignored="false" />
     <file path="/homeCtrl.js" changelist="98c85ad9-2758-400e-a57b-bd73f20dd7c5" time="1378688663309" ignored="false" />
     <file path="/globalCtrl.js" changelist="98c85ad9-2758-400e-a57b-bd73f20dd7c5" time="1378693589824" ignored="false" />
-    <file path="/Dummy.txt" changelist="98c85ad9-2758-400e-a57b-bd73f20dd7c5" time="1378713470036" ignored="false" />
+    <file path="/Dummy.txt" changelist="98c85ad9-2758-400e-a57b-bd73f20dd7c5" time="1378793932707" ignored="false" />
     <file path="/package.json" changelist="98c85ad9-2758-400e-a57b-bd73f20dd7c5" time="1378713430622" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="75" selection-start="601" selection-end="601" vertical-scroll-proportion="0.38990825">
+            <state line="18" column="70" selection-start="494" selection-end="494" vertical-scroll-proportion="0.14416476">
               <folding />
             </state>
           </provider>
@@ -96,7 +95,7 @@
       <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="52" selection-start="272" selection-end="272" vertical-scroll-proportion="-10.461538">
+            <state line="16" column="52" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,7 +151,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -171,7 +170,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -376,21 +374,22 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Simplicity\WebstormProjects\PCBuilder\public\javascripts\pushMenu" />
       <recent name="C:\Users\Simplicity\WebstormProjects\PCBuilder" />
+      <recent name="C:\Users\Simplicity\WebstormProjects\PCBuilder\public\javascripts\pushMenu" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Simplicity\WebstormProjects\PCBuilder\public\images" />
@@ -453,7 +452,6 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -467,6 +465,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -535,46 +534,36 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/keys/pcKey.pem">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="16" column="52" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0194508">
-          <folding />
-        </state>
+        <state line="1" column="20" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0194508" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/css/components.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/angularTemplates.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="44" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0194508">
-          <folding />
-        </state>
+        <state line="1" column="44" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0194508" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/less/normalize.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="18" selection-start="437" selection-end="437" vertical-scroll-proportion="0.48627">
-          <folding />
-        </state>
+        <state line="25" column="18" selection-start="437" selection-end="437" vertical-scroll-proportion="0.48627" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/controllers/homeCtrl.js">
@@ -586,9 +575,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/pushMenu/classie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/controllers/globalCtrl.js">
@@ -600,16 +587,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/less/components.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="266" column="35" selection-start="5659" selection-end="5659" vertical-scroll-proportion="5.3262663">
-          <folding />
-        </state>
+        <state line="266" column="35" selection-start="5659" selection-end="5659" vertical-scroll-proportion="5.3262663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="59" selection-end="59" vertical-scroll-proportion="0.07798165">
-          <folding />
-        </state>
+        <state line="4" column="33" selection-start="59" selection-end="59" vertical-scroll-proportion="0.07798165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/angularTemplates/homepage.jade">
@@ -621,7 +604,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="52" selection-start="272" selection-end="272" vertical-scroll-proportion="-10.461538">
+        <state line="16" column="52" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -642,7 +625,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="75" selection-start="601" selection-end="601" vertical-scroll-proportion="0.38990825">
+        <state line="18" column="70" selection-start="494" selection-end="494" vertical-scroll-proportion="0.14416476">
           <folding />
         </state>
       </provider>

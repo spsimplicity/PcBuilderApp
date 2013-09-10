@@ -1,5 +1,6 @@
 var express =  require('express'),
-    https =    require('https'),
+    //https =    require('https'),
+    http =    require('http'),
     fs =       require('fs'),
     path =     require('path'),
     // Page routes
@@ -47,6 +48,10 @@ app.get('/', routes.index);
 // Angular template requests
 app.get('/view/homepage', angTemps.homepage);
 
-https.createServer(sshOptions, app).listen(app.get('port'), function(){
+/*https.createServer(sshOptions, app).listen(app.get('port'), function(){
+    console.log('Express server listening on port ' + app.get('port'));
+});*/
+
+http.createServer(app).listen(app.get('port'), function(){
     console.log('Express server listening on port ' + app.get('port'));
 });
