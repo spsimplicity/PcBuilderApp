@@ -18,13 +18,13 @@ html
             div.mp-pusher#mp-pusher
                 // mp-menu
                 nav.mp-menu#mp-menu
-                    div.mp-level
+                    div.mp-level(data-level=1)
                         ul
                             li
                                 a(ng-click="loc.path(/)") Home
-                            li.icon.icon-arrow-left
+                            li
                                 a Motherboards
-                                div.mp-level
+                                div.mp-level(data-level=2)
                                     h2 Motherboards
                                     a.mp-back back
                                     ul
@@ -58,12 +58,12 @@ html
                                 a Disc Drives
 
                 // Needed for emulating fixed position of the nav
-                div.scroller
+                div.scroller#scroller
                     div.scroller-inner
                         // Main page content
                         div
                             nav
-                                a.menu-trigger#trigger(ng-click="") Menu
+                                a.menu-trigger#trigger(show-menu) Menu
                                 a(ng-click="loc.path('/')") PC Builder
                                 div
                                     a(ng-click="showLogin=!showLogin") Login / Register
